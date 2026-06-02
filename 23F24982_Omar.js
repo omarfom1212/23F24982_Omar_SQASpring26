@@ -17,9 +17,9 @@ switch (sector) {
         sectorName = "Invalid Sector";
 }
 
-if (growthRate >= 15) {
+if (growthRate >= 20) {
     demandLevel = "High Hiring Demand";
-} else if (growthRate >= 5) {
+} else if (growthRate >= 10) {
     demandLevel = "Moderate Hiring Demand";
 } else {
     demandLevel = "Low Hiring Demand";
