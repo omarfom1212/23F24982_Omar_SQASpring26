@@ -13,6 +13,9 @@ switch (sector) {
     case "Education":
         sectorName = "Education";
         break;
+    case "Finance":
+        sectorName = "Finance";
+        break;
     default:
         sectorName = "Invalid Sector";
 }
